@@ -1,0 +1,31 @@
+============================================================
+TP Parcial 02 - Machine Learning
+Universidad Abierta Interamericana
+============================================================
+Algoritmo : Random Forest (Regresión)
+Dataset   : Consumo eléctrico por provincia argentina (sintético)
+Fecha/Hora: 29/06/2026 14:27:49
+============================================================
+
+VARIABLES DE ENTRADA
+----------------------------------------
+  - Temperatura (°C)
+  - Población (miles)
+  - Ind. Industrial
+  - Mes
+  - Precio kWh ($)
+
+MÉTRICAS
+----------------------------------------
+  Estimadores : 100 árboles
+  MSE         : 33036810.75
+  RMSE        : 5747.77
+  R²          : 0.9901
+
+IMPORTANCIA DE VARIABLES
+----------------------------------------
+  Temperatura (°C)        : 0.0020
+  Población (miles)       : 0.9868
+  Ind. Industrial         : 0.0082
+  Mes                     : 0.0016
+  Precio kWh ($)          : 0.0014

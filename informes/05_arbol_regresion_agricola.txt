@@ -1,0 +1,29 @@
+============================================================
+TP Parcial 02 - Machine Learning
+Universidad Abierta Interamericana
+============================================================
+Algoritmo : Árbol de Decisión (Regresión)
+Dataset   : Producción agrícola de soja/maíz en la pampa húmeda (sintético)
+Fecha/Hora: 29/06/2026 14:27:49
+============================================================
+
+VARIABLES
+----------------------------------------
+  - Hectáreas
+  - Lluvia (mm)
+  - Temp. media (°C)
+  - Fertilizante (kg/ha)
+
+COMPARACIÓN DE PROFUNDIDADES
+----------------------------------------
+  max_depth=3    : R²=0.8184  RMSE=808.13
+  max_depth=5    : R²=0.8841  RMSE=645.70 ← mejor
+  max_depth=10   : R²=0.8545  RMSE=723.40
+  max_depth=None : R²=0.8581  RMSE=714.49
+
+IMPORTANCIA DE VARIABLES
+----------------------------------------
+  Hectáreas               : 0.8288
+  Lluvia (mm)             : 0.0046
+  Temp. media (°C)        : 0.0092
+  Fertilizante (kg/ha)    : 0.1575

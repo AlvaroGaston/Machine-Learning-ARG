@@ -1,0 +1,33 @@
+============================================================
+TP Parcial 02 - Machine Learning
+Universidad Abierta Interamericana
+============================================================
+Algoritmo : Regresión Lineal Múltiple
+Dataset   : Precio de alquiler en CABA (m², habitaciones, distancia al centro)
+Fecha/Hora: 29/06/2026 14:27:43
+============================================================
+
+DESCRIPCIÓN DEL DATASET
+----------------------------------------
+Simula precios de alquiler en CABA con 3 variables:
+  m² (superficie), habitaciones, distancia al Obelisco.
+  Muestras: 300 | Entrenamiento: 240 | Prueba: 60
+
+COEFICIENTES DEL MODELO
+----------------------------------------
+  m²                  : 1963.01
+  Habitaciones        : 14469.31
+  Distancia (km)      : -3207.32
+  Intercepto          : 6070.23
+
+MÉTRICAS
+----------------------------------------
+  MSE  : 423875001.66
+  RMSE : 20588.22
+  R²   : 0.9280
+
+INTERPRETACIÓN
+----------------------------------------
+  Cada m² adicional suma $1963 al precio.
+  Cada habitación extra suma $14469.
+  Cada km de distancia resta $3207.

@@ -1,0 +1,29 @@
+============================================================
+TP Parcial 02 - Machine Learning
+Universidad Abierta Interamericana
+============================================================
+Algoritmo : Regresión Lineal Simple
+Dataset   : Precio de nafta vs distancia recorrida (rutas nacionales argentinas)
+Fecha/Hora: 29/06/2026 11:32:55
+============================================================
+
+DESCRIPCIÓN DEL DATASET
+----------------------------------------
+Datos sintéticos que simulan el costo de viaje en auto
+por rutas nacionales argentinas según los km recorridos.
+  - Muestras totales : 200
+  - Entrenamiento    : 160 muestras
+  - Prueba           : 40 muestras
+
+RESULTADOS DEL MODELO
+----------------------------------------
+  Coeficiente (pendiente) : 120.3610
+  Intercepto              : 54.63
+  MSE                     : 27115596.56
+  RMSE                    : 5207.26
+  R²                      : 0.9893
+
+INTERPRETACIÓN
+----------------------------------------
+  Por cada km adicional, el costo aumenta $120.36.
+  El modelo explica el 98.9% de la variabilidad del costo.

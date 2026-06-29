@@ -1,0 +1,22 @@
+============================================================
+TP Parcial 02 - Machine Learning
+Universidad Abierta Interamericana
+============================================================
+Algoritmo : Regresión Polinomial
+Dataset   : Inflación mensual vs poder adquisitivo (Argentina sintético)
+Fecha/Hora: 29/06/2026 14:27:43
+============================================================
+
+DESCRIPCIÓN DEL DATASET
+----------------------------------------
+Relación entre inflación acumulada y poder adquisitivo
+del salario en Argentina (datos sintéticos).
+  Muestras: 150 | Entrenamiento: 120 | Prueba: 30
+
+COMPARACIÓN DE GRADOS
+----------------------------------------
+  Grado 1: R²=0.9190  RMSE=5.4809
+  Grado 2: R²=0.9703  RMSE=3.3181 ← mejor
+  Grado 3: R²=0.9701  RMSE=3.3330
+
+Mejor grado seleccionado: 2

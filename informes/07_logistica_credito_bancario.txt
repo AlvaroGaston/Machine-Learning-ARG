@@ -1,0 +1,37 @@
+============================================================
+TP Parcial 02 - Machine Learning
+Universidad Abierta Interamericana
+============================================================
+Algoritmo : Regresión Logística
+Dataset   : Aprobación de crédito bancario argentino (sintético)
+Fecha/Hora: 29/06/2026 14:27:54
+============================================================
+
+VARIABLES
+----------------------------------------
+  - Ingresos (miles $)
+  - Deuda (%)
+  - Antigüedad (años)
+  - Score crediticio
+  - Monto solicitado (miles $)
+
+MÉTRICAS
+----------------------------------------
+  Accuracy : 0.9400
+  AUC-ROC  : 0.9930
+
+REPORTE DE CLASIFICACIÓN
+----------------------------------------
+              precision    recall  f1-score   support
+
+   Rechazado       0.88      0.94      0.91        31
+    Aprobado       0.97      0.94      0.96        69
+
+    accuracy                           0.94       100
+   macro avg       0.92      0.94      0.93       100
+weighted avg       0.94      0.94      0.94       100
+
+MATRIZ DE CONFUSIÓN
+----------------------------------------
+  VN=29  FP=2
+  FN=4  VP=65

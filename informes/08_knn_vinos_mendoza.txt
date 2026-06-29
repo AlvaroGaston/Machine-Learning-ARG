@@ -1,0 +1,23 @@
+============================================================
+TP Parcial 02 - Machine Learning
+Universidad Abierta Interamericana
+============================================================
+Algoritmo : KNN (K Vecinos Más Cercanos)
+Dataset   : Clasificación de vinos mendocinos por varietal (sintético)
+Fecha/Hora: 29/06/2026 14:27:55
+============================================================
+
+  Mejor K  : 3
+  Accuracy : 0.9000
+
+REPORTE DE CLASIFICACIÓN
+----------------------------------------
+                    precision    recall  f1-score   support
+
+            Malbec       0.89      0.80      0.84        30
+Cabernet Sauvignon       0.82      0.90      0.86        30
+         Torrontés       1.00      1.00      1.00        30
+
+          accuracy                           0.90        90
+         macro avg       0.90      0.90      0.90        90
+      weighted avg       0.90      0.90      0.90        90

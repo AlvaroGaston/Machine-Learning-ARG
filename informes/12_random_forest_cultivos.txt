@@ -1,0 +1,43 @@
+============================================================
+TP Parcial 02 - Machine Learning
+Universidad Abierta Interamericana
+============================================================
+Algoritmo : Random Forest (Clasificación)
+Dataset   : Diagnóstico de cultivos pampeanos argentinos (sintético)
+Fecha/Hora: 29/06/2026 14:27:56
+============================================================
+
+VARIABLES AGRONÓMICAS
+----------------------------------------
+  - Humedad suelo (%)
+  - pH suelo
+  - Temp. mín. (°C)
+  - Lluvia 7 días (mm)
+  - Nitrógeno (kg/ha)
+  - Fósforo (ppm)
+  - Días sin lluvia
+
+  Estimadores : 150 árboles
+  Accuracy    : 0.8400
+
+REPORTE DE CLASIFICACIÓN
+----------------------------------------
+              precision    recall  f1-score   support
+
+      Óptimo       0.85      0.85      0.85        34
+     Regular       0.73      0.82      0.77        33
+  Deficiente       0.97      0.85      0.90        33
+
+    accuracy                           0.84       100
+   macro avg       0.85      0.84      0.84       100
+weighted avg       0.85      0.84      0.84       100
+
+IMPORTANCIA DE VARIABLES
+----------------------------------------
+  Humedad suelo (%)         : 0.1192
+  pH suelo                  : 0.0781
+  Temp. mín. (°C)           : 0.0806
+  Lluvia 7 días (mm)        : 0.1093
+  Nitrógeno (kg/ha)         : 0.2782
+  Fósforo (ppm)             : 0.1171
+  Días sin lluvia           : 0.2174

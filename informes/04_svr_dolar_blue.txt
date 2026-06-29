@@ -1,0 +1,21 @@
+============================================================
+TP Parcial 02 - Machine Learning
+Universidad Abierta Interamericana
+============================================================
+Algoritmo : SVR (Support Vector Regression)
+Dataset   : Precio del dólar blue histórico (Argentina sintético)
+Fecha/Hora: 29/06/2026 14:27:48
+============================================================
+
+DESCRIPCIÓN DEL DATASET
+----------------------------------------
+Serie temporal simulada del dólar blue argentino (36 meses).
+Incluye tendencia exponencial + estacionalidad + ruido.
+
+COMPARACIÓN DE KERNELS
+----------------------------------------
+  linear    : R²=0.6986  RMSE=0.5412
+  rbf       : R²=0.8512  RMSE=0.3802 ← mejor
+  poly      : R²=0.3532  RMSE=0.7927
+
+Mejor kernel: rbf
